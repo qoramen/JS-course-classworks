@@ -405,3 +405,28 @@
 //         changer.push(abc.toUpperCase());
 //     }
 // }
+
+// const toggleBtn = document.getElementById('toggleBtn');
+// const container = document.getElementById('container');
+// const para = document.getElementById('par')
+
+
+// toggleBtn.onclick = function () {
+//     if (container.classList = 'red') {
+//         container.classList.toggle('blue')
+//     }
+//     toggleBtn.onclick = function (){
+//         if(para.classList = 'white') {
+//             para.classList.toggle('black') 
+//         }
+//     }
+// }
+
+// toggleBtn.addEventListener('mouseover', () => {
+//     container.innerHTML = 'Hello Guys!'
+// })
+
+// container.classList.toggle('blue')
+// toggleBtn.onclick = function () {
+//     para.classList.toggle('black')
+// }
