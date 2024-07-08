@@ -441,3 +441,81 @@
 // for (let i = 0; i < 10; i++){
 //     console.log(i);
 // }
+
+// calc(10, 3, '+');
+// function calc(num1, num2, belgi) {
+//     if (belgi === '+') {
+//         javob = num1 + num2;
+//     } else if (belgi === '-') {
+//         javob = num1 - num2;
+//     } else if (belgi === '*') {
+//         javob = num1 * num2;
+//     } else if (belgi === '/') {
+//         if (num2 == 0) {
+//             javob = 'xato';
+//         } else {
+//             javob = num1 / num2;
+//         }
+//     }
+
+//     console.log(`${num1} ${belgi} ${num2} = ${javob}`);
+// }
+
+// const calc2 = function () {
+//     for (let i = 0; i <= 15; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             console.log("fizzbazz");
+//         } else if (i % 3 === 0) {
+//             console.log("fizz");
+//         } else if (i % 5 === 0) {
+//             console.log("bazz");
+//         } else {
+//             console.log(i);
+//         }
+//     }
+// }
+
+// calc2();
+
+// const calc3 = (username1, password1) => {
+//     let userinfo = {
+//         username2: 'qoramen',
+//         password2: 123
+//     }
+//     if (userinfo.username2 != username1 && userinfo.password2 != password1) {
+//         console.log('invalid username and password')
+//     } else if (userinfo.username2 != username1) {
+//         console.log('invalid username')
+//     } else if (userinfo.password2 != password1) {
+//         console.log('invalidpassword')
+//     } else {
+//         console.log('You may go');
+//     }
+// }
+
+// console.log(calc3('qoramen', 123));
+
+// function first(par1, cb) {
+//     setTimeout(() => {
+//         console.log(par1);
+//         cb()
+//     }, 1000);
+// }
+
+// function second(par2) {
+//     console.log(par2);
+// }
+
+// function third(par3) {
+//     console.log(par3);
+// }
+
+// function fourth(par4) {
+//     console.log(par4);
+// }
+
+// first(1, function () {
+//     second(2);
+//     third(3);
+//     fourth(4)
+// })
